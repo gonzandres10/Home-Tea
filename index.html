@@ -4,62 +4,91 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Home Tea</title>
     <link rel="stylesheet" href="te.css">
     <link rel="stylesheet" href="stylesheet.css" type="text/css" charset="utf-8" />
 </head>
 <body>
     <div class="container">
-        <nav>
-            <img src="tea_logo.png" class="logo"alt="Logo of Tea house">
-            <a href="index.html" class="menu">Home</a>
-            <a href="blog.html" class="menu">Blog</a>
-            <a href="contacto.html" class="menu">Contacto</a>
-            <a href="login.html" class="menu">Login</a>
-        </nav>
+        <header>
+            <nav>
+                <img src="tea_logo.png" class="logo"alt="Logo of Tea house">
+                <a href="index.html" class="menu">Home</a>
+                <a href="blog.html" class="menu">Blog</a>
+                <a href="contacto.html" class="menu">Contacto</a>
+                <a href="login.html" class="menu">Login</a>
+            </nav>
+            <br><br>
+            <div class="fixed">
+                <div class="containermenumobile">
+                    <div class="mobile-menu">
+                    <img src="tea_logo.png" alt="Tea logo" id="logomobile">
+                    <img src="Botones/Menú hamburguesa.png" alt="Menu Hamburguesa" onclick="on()" id="hamburguesa" >
+                    <img src="Botones/Menú hamburguesa.png" alt="Menu Hamburguesa" id="hamburguesaonclick" onclick="off()">
+                    <br><br>
+                </div>
+            </div>
+                <div id="menucontenedor">
+                    <!-- <img src="/tea_logo.png" alt="Tea logo" id="logomobile"> -->
+                    <br><br>
+                    <a href="index.html" class="menumobile">Home</a>
+                    <br><br>
+                    <a href="blog.html" class="menumobile">Blog</a>
+                    <br><br>
+                    <a href="contacto.html" class="menumobile">Contacto</a>
+                    <br><br>
+                    <a href="login.html" class="menumobile">Login</a>
+                </div>
+            </div>
+        </header>
+        <br><br><br><br><br><br>
         <img src="matchnature.jpg" class="images" alt="Té matcha">
         <br><br><br>
         <div class="context">
             <div class="contenido">
-            <h1>Té Verde</h1>
+            <h1>Green Tea</h1>
             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Explicabo doloribus rem illo est rerum necessitatibus nobis unde placeat corrupti natus, deleniti ad sit esse, fuga fugiat voluptatibus similique reiciendis? Ipsam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa dolorem aliquam quam ducimus facere itaque at fugit quae eum? Distinctio ut quisquam porro laudantium, unde at quibusdam? Nostrum, magnam maxime. Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
             <b>€10:90: 100 g</b>
-            <br><br><br>
-            <a href="#" class="comprar">¡Comprar ahora!</a>
+            <br>
+            <button class="comprar">Buy now!</button>
         </div>
             <img src="verde.jpg" class="imagenpeque" alt="Té verde">
+            <img src="Imágenes diferentes medidas/verde.png" class="imagenpeque1700" alt="Té verde">
         </div>
         <br><br><br>
         <div class="context">
             <img src="rojo.jpg" class="imagenpeque" alt="Té tojo">
+            <img src="Imágenes diferentes medidas/red1700.png" class="imagenpeque1700"  alt="Té rojo">
             <div class="contenido">
-            <h1>Té Rojo</h1>
+            <h1>Red Tea</h1>
             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Explicabo doloribus rem illo est rerum necessitatibus nobis unde placeat corrupti natus, deleniti ad sit esse, fuga fugiat voluptatibus similique reiciendis? Ipsam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa dolorem aliquam quam ducimus facere itaque at fugit quae eum? Distinctio ut quisquam porro laudantium, unde at quibusdam? Nostrum, magnam maxime. Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
             <b>€7:70: 100 g</b>
-            <br><br><br> 
-            <a href="#" class="comprar">¡Comprar ahora!</a>
+            <br>
+            <button class="comprar">Buy now!</button>
         </div> 
         </div>
         <br><br><br>
         <div class="context">
             <div class="contenido">
-            <h1>Té Negro</h1>
+            <h1>Black Tea</h1>
             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Explicabo doloribus rem illo est rerum necessitatibus nobis unde placeat corrupti natus, deleniti ad sit esse, fuga fugiat voluptatibus similique reiciendis? Ipsam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa dolorem aliquam quam ducimus facere itaque at fugit quae eum? Distinctio ut quisquam porro laudantium, unde at quibusdam? Nostrum, magnam maxime. Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                 <b>€12:59: 100 g</b>
-                <br><br><br>
-            <a href="#" class="comprar">¡Comprar ahora!</a>
+                <br>
+                <button class="comprar">Buy now!</button>
         </div>
             <img src="negro.jpg" class="imagenpeque" alt="Té negro">
-        </div>
-        <div class="logofooter">
-            <img src="tea_logo.png" class="logofoot"alt="Logo of Tea house">
+            <img src="Imágenes diferentes medidas/negro.png" class="imagenpeque1700"  alt="Té negro">
         </div>
     </div>
         <footer>
+            <img src="tea_logo.png" class="logofooter"alt="Logo of Tea house">
             <a href="cookies.html" class="foot">Cookies</a>
-            <a href="informacion.html" class="foot">Información</a>
-            <a href="ubicacion.html" class="foot">Ubicación</a>
-            <a href="acercade.html" class="foot">Acerca de</a>
+            <a href="informacion.html" class="foot">Information</a>
+            <a href="ubicacion.html" class="foot">Location</a>
+            <a href="acercade.html" class="foot">History</a>
         </footer>
+        <script src="index.js">
+
+        </script>
 </body>
 </html>

@@ -10,62 +10,91 @@
 </head>
 <body>
     <div class="container">
-        <nav>
-            <img src="tea_logo.png" class="logo"alt="Logo of Tea house">
-            <a href="index.html" class="menu">Home</a>
-            <a href="blog.html" class="menu">Blog</a>
-            <a href="contacto.html" class="menu">Contacto</a>
-            <a href="login.html" class="menu">Login</a>
-        </nav>
-        <br><br><br>
-        <div class="context">
+        <header>
+            <nav>
+                <img src="tea_logo.png" class="logo"alt="Logo of Tea house">
+                <a href="index.html" class="menu">Home</a>
+                <a href="blog.html" class="menu">Blog</a>
+                <a href="contacto.html" class="menu">Contacto</a>
+                <a href="login.html" class="menu">Login</a>
+            </nav>
+            <br><br>
+            <div class="fixed">
+                <div class="containermenumobile">
+                    <div class="mobile-menu">
+                    <img src="tea_logo.png" alt="Tea logo" id="logomobile">
+                    <img src="Botones/Menú hamburguesa.png" alt="Menu Hamburguesa" onclick="on()" id="hamburguesa" >
+                    <img src="Botones/Menú hamburguesa.png" alt="Menu Hamburguesa" id="hamburguesaonclick" onclick="off()">
+                    <br><br>
+                </div>
+            </div>
+                <div id="menucontenedor">
+                    <!-- <img src="/tea_logo.png" alt="Tea logo" id="logomobile"> -->
+                    <br><br>
+                    <a href="index.html" class="menumobile">Home</a>
+                    <br><br>
+                    <a href="blog.html" class="menumobile">Blog</a>
+                    <br><br>
+                    <a href="contacto.html" class="menumobile">Contacto</a>
+                    <br><br>
+                    <a href="login.html" class="menumobile">Login</a>
+                </div>
+            </div>
+        </header>
+        <br><br><br><br><br><br><br><br><br><br><br><br>
+        <div class="contextblog">
             <img src="blogmain.jpg" class="imagenpequeblogtitular" alt="Té negro">
             <div class="contenidoblogtitular">
             <h1>Variedades del Té</h1>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Explicabo doloribus rem illo est rerum necessitatibus nobis unde placeat corrupti natus, deleniti ad sit esse, fuga fugiat voluptatibus similique reiciendis? Ipsam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa dolorem aliquam quam ducimus facere itaque at fugit quae eum? Distinctio ut quisquam porro laudantium, unde at quibusdam? Nostrum, magnam maxime. Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic tempora dicta magni voluptate. Dolore nemo reiciendis iure quia, quaerat et enim esse nihil, ducimus distinctio veniam dolores veritatis! Eum, harum?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis aperiam voluptatem possimus, in eius vel quam autem repellat doloremque quisquam id explicabo quia amet.</p>
+            <p><span class="mayusculas">L</span>orem, ipsum dolor sit amet consectetur adipisicing elit. Explicabo doloribus rem illo est rerum necessitatibus nobis unde placeat corrupti natus, deleniti ad sit esse, fuga fugiat voluptatibus similique reiciendis? Ipsam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa dolorem aliquam quam ducimus facere itaque at fugit quae eum? Distinctio ut quisquam porro laudantium, unde at quibusdam? Nostrum, magnam maxime. Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic tempora dicta magni voluptate. Dolore nemo reiciendis iure quia, quaerat et enim esse nihil, ducimus distinctio veniam dolores veritatis! Eum, harum?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis aperiam voluptatem possimus, in eius vel quam autem repellat doloremque quisquam id explicabo quia amet.</p>
             
             <b><a href="#" class="continuarleyendomain">Continuar leyendo...</a></b>
         </div>   
         </div>
         <br><br><br>
         <div class="contextmain">
-            <h1 class="title">La ceremonia del Té</h1>
-        <div class="context">
+            <h1 class="title">The Tea Ceremony</h1>
+        <div class="contextarticulos">
             <div class="contenidoblog">
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Explicabo doloribus rem illo est rerum necessitatibus nobis unde placeat corrupti natus, deleniti ad sit esse, fuga fugiat voluptatibus similique reiciendis? Ipsam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa dolorem aliquam quam ducimus facere itaque at fugit quae eum? Distinctio ut quisquam porro laudantium, unde at quibusdam? Nostrum, magnam maxime. Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic tempora dicta magni voluptate. Dolore nemo reiciendis iure quia, quaerat et enim esse nihil, ducimus distinctio veniam dolores veritatis! Eum, harum?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis aperiam voluptatem possimus, in eius vel quam autem repellat doloremque quisquam id explicabo quia amet. Tenetur omnis tempora minima totam perspiciatis.</p>
+            <p><span class="mayusculas">L</span>orem, ipsum dolor sit amet consectetur adipisicing elit. Explicabo doloribus rem illo est rerum necessitatibus nobis unde placeat corrupti natus, deleniti ad sit esse, fuga fugiat voluptatibus similique reiciendis? Ipsam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa dolorem aliquam quam ducimus facere itaque at fugit quae eum? Distinctio ut quisquam porro laudantium, unde at quibusdam? Nostrum, magnam maxime. Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic tempora dicta magni voluptate. Dolore nemo reiciendis iure quia, quaerat et enim esse nihil, ducimus distinctio veniam dolores veritatis! Eum, harum?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis aperiam voluptatem possimus, in eius vel quam autem repellat doloremque quisquam id explicabo quia amet. Tenetur omnis tempora minima totam perspiciatis.</p>
+            <br>
             <b><a href="#" class="continuarleyendo">Continuar leyendo...</a></b>
         </div>   
+        <img src="Imágenes diferentes medidas/blog1 1.png" class="img-responsive" alt="La ceremonia del té vertical">
         <img src="blog1.jpg" class="imagenpequeblog" alt="La ceremonia del té">
         </div>
         <br><br><br>
-        <h1 class="title">Infusión de rooibos</h1>
-        <div class="context">
+        <h1 class="title">Rooibos Infusion</h1>
+        <div class="contextarticulos">
+            <img src="Imágenes diferentes medidas/blog1 2.png" class="img-responsive" alt="Rooibos infusion">
             <img src="blog2.jpg" class="imagenpequeblog" alt="Infusión de Rooibos">
             <div class="contenidoblog">
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Explicabo doloribus rem illo est rerum necessitatibus nobis unde placeat corrupti natus, deleniti ad sit esse, fuga fugiat voluptatibus similique reiciendis? Ipsam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa dolorem aliquam quam ducimus facere itaque at fugit quae eum? Distinctio ut quisquam porro laudantium, unde at quibusdam? Nostrum, magnam maxime. Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic tempora dicta magni voluptate. Dolore nemo reiciendis iure quia, quaerat et enim esse nihil, ducimus distinctio veniam dolores veritatis! Eum, harum?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis aperiam voluptatem possimus, in eius vel quam autem repellat doloremque quisquam id explicabo quia amet. Tenetur omnis tempora minima totam perspiciatis.</p>
+            <p><span class="mayusculas">L</span>orem, ipsum dolor sit amet consectetur adipisicing elit. Explicabo doloribus rem illo est rerum necessitatibus nobis unde placeat corrupti natus, deleniti ad sit esse, fuga fugiat voluptatibus similique reiciendis? Ipsam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa dolorem aliquam quam ducimus facere itaque at fugit quae eum? Distinctio ut quisquam porro laudantium, unde at quibusdam? Nostrum, magnam maxime. Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic tempora dicta magni voluptate. Dolore nemo reiciendis iure quia, quaerat et enim esse nihil, ducimus distinctio veniam dolores veritatis! Eum, harum?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis aperiam voluptatem possimus, in eius vel quam autem repellat doloremque quisquam id explicabo quia amet. Tenetur omnis tempora minima totam perspiciatis.</p>
             <b><a href="#" class="continuarleyendo">Continuar leyendo...</a></b>
         </div>   
         </div>
         <br><br><br>
-        <h1 class="title">Té por la mañana</h1>
-        <div class="context">
+        <h1 class="title">Morning Tea</h1>
+        <div class="contextarticulos">
             <div class="contenidoblog">
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Explicabo doloribus rem illo est rerum necessitatibus nobis unde placeat corrupti natus, deleniti ad sit esse, fuga fugiat voluptatibus similique reiciendis? Ipsam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa dolorem aliquam quam ducimus facere itaque at fugit quae eum? Distinctio ut quisquam porro laudantium, unde at quibusdam? Nostrum, magnam maxime. Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic tempora dicta magni voluptate. Dolore nemo reiciendis iure quia, quaerat et enim esse nihil, ducimus distinctio veniam dolores veritatis! Eum, harum?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis aperiam voluptatem possimus, in eius vel quam autem repellat doloremque quisquam id explicabo quia amet. Tenetur omnis tempora minima totam perspiciatis.</p>
+            <p><span class="mayusculas">L</span>orem, ipsum dolor sit amet consectetur adipisicing elit. Explicabo doloribus rem illo est rerum necessitatibus nobis unde placeat corrupti natus, deleniti ad sit esse, fuga fugiat voluptatibus similique reiciendis? Ipsam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa dolorem aliquam quam ducimus facere itaque at fugit quae eum? Distinctio ut quisquam porro laudantium, unde at quibusdam? Nostrum, magnam maxime. Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic tempora dicta magni voluptate. Dolore nemo reiciendis iure quia, quaerat et enim esse nihil, ducimus distinctio veniam dolores veritatis! Eum, harum?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis aperiam voluptatem possimus, in eius vel quam autem repellat doloremque quisquam id explicabo quia amet. Tenetur omnis tempora minima totam perspiciatis.</p>
             
             <b><a href="#" class="continuarleyendo">Continuar leyendo...</a></b>
         </div>   
-        <img src="blog3.jpg" class="imagenpequeblog" alt="Té negro">
+        <img src="Imágenes diferentes medidas/blog1 3.png" class="img-responsive" alt="Rooibos infusion">
+        <img src="blog3.jpg" class="imagenpequeblog" alt="Morning Tea">
         </div>
-        </div>
-        <div class="logofooter">
-            <img src="tea_logo.png" class="logofoot"alt="Logo of Tea house">
         </div>
     </div>
+    <br><br><br>
         <footer>
+            <img src="tea_logo.png" class="logofooter"alt="Logo of Tea house">
             <a href="cookies.html" class="foot">Cookies</a>
-            <a href="informacion.html" class="foot">Información</a>
-            <a href="ubicacion.html" class="foot">Ubicación</a>
-            <a href="acercade.html" class="foot">Acerca de</a>
+            <a href="informacion.html" class="foot">Information</a>
+            <a href="ubicacion.html" class="foot">Location</a>
+            <a href="acercade.html" class="foot">History</a>
         </footer>
+        <script src="index.js">
+        </script>
 </body>
 </html>
