@@ -191,36 +191,41 @@
             font-size: 80%;
     }
         .logofooter{
-            width:95%; 
-            margin: 10% 5%;
+            width:50%; 
+            margin: 5% 25%;
         }
-        .foot{
-            text-decoration: none;
-            display: flex;
-            justify-content: center;
-            padding:5% 15%;
-            margin: 10% 0px;
-            background-color: #046A6A;
+        .footermovil{
+            display: inline-block;
+        }
+        .foot:hover{
+            background-color: #B27632;
             color: #E8DDC1;
-            border: 1px solid #E8DDC1;
-            font-size: 100%;
-            font-family: musetta;
-        }
-        .containerfooter{
-            text-align: center;
-            margin: 5% 69px;
-            justify-content:space-between;
         }
         footer{
-            text-align: center;
             background-color: #97221B;
             margin-top: 5%;
             padding: 5%;
             border-radius: 0px 0px 30px 30px;
         }
-        .foot:hover{
-            background-color: #B27632;
+        .containerfoot{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+        }
+        .foot{
+            text-decoration: none;
+            margin: 5% 2%;
+            background-color: #046A6A;
             color: #E8DDC1;
+            border: 1px solid #E8DDC1;
+            font-size: 150%;
+            font-family: musetta;
+            padding: 2% 5%;
+            width: 100%;
+            text-align:center;
+        }
+        .containerfooterrow{
+            display: none;
         }
         .contenidoblogtitular{
             width: 80%;
@@ -364,9 +369,6 @@
 }
 
 @media only screen and (min-width: 768px){
-    header nav {
-        display: none;
-    }
     .mobile-menu{
         display: flex;
         justify-content: center;
@@ -378,16 +380,14 @@
         border-radius: 30px 30px 0px 0px;
     }
     #hamburguesa{
-        width: 13%;
-        margin-top: 6%;
-        margin-right: 15%;
-        margin-top: 3%;
+        width: 8%;
+        margin: 1% 0;
+        margin-left: 20%;
     }
     #hamburguesaonclick{
-        width: 13%;
-        margin-top: 6%;
-        margin-right: 15%;
-        margin-top: 3%;
+        width: 8%;
+        margin: 1% 0;
+        margin-left: 20%;
         display: none;
     }
     #menucontenedor{
@@ -401,10 +401,6 @@
         padding: 10%;
         z-index: 1;
     }
-    .fixed{
-        position: fixed;
-        margin: 5%;
-    }
     .containermenumobile{
         background-color: black;
         padding: 10%;
@@ -414,319 +410,157 @@
         margin-left: -10%;
         width: 100%;
     }
-        .menu{
-            text-decoration: none;
-            margin: 2px 4px;
-            background-color: #046A6A;
-            color: #E8DDC1;
-            border: 3px solid #E8DDC1;
-            font-size: 200%;
-            font-family: musetta;
-            text-align: center;
-        }
-        .menu:hover{
-            background-color: #97221B;
-            color: #E8DDC1;
-        }
-        .menumobile{
-            text-decoration: none;
-            margin: 2px 4px;
-            background-color: #046A6A;
-            color: #E8DDC1;
-            border: 3px solid #E8DDC1;
-            font-size: 200%;
-            font-family: musetta;
-            text-align: center;
-            padding: 0 5%;
-            display: flex;
-            text-align: center;
-            justify-content: center;
-        }
-        nav{
-            display: flex;
-            justify-content: center;
-            align-items: space-between;
-            background-color: #97221B;
-            padding-right: 15%;
-            padding-left: 15%;
-            border-radius: 30px 30px 0px 0px;
-        }
-        body{
-            background-color: black;
-            color: #E8DDC1;
-            margin: 3%;
-        }
-        .logo{
-            width:19%; 
-            height:19%;
-            position: relative;
-            margin-top:4.5%;
-            margin-left: 5%;
-        }
-        .logologin{
+    .menumobile{
+    margin: 2px 4px;
+    border: 3px solid #E8DDC1;
+    font-size: 200%;
+    padding: 0 5%;
+    }
+    .logologin{
             width:50%; 
             height:50%;
             margin-top:50%;
             margin-left: 30%;
         }
-        #logomobile{
-            width:50%; 
-            height:50%;
-            margin-left: 40%;
-            position: relative;
-            padding: 0;
-        }
-        .logomobile{
-            width:50%; 
-            height:21%;
-            position: relative;
-            margin: 10% 27%;
-        }
-        .images{
-            width: 100%;
-            height: 100%;
-            z-index: 2;
-            margin-top: 10%;
-        }
-        .imagenpeque{
-            width: 30%;
-            height: 30%;
-            margin: 2% 4%;
-            display:none
-        }
-        .imagenpeque1700{
-            width: 40%;
-            height: 60%;
-            margin: 6% 2%;
-            margin-bottom: 8%;
-            display: block;
-        }
-        .context{
-            display:flex;
-            flex-direction: row;
-            justify-content: center;
-            background-color: #046A6A;
-            border: 5px solid #E8DDC1;
-        }
-        .contextarticulos{
-            display:flex;
-            flex-direction: row;
-            justify-content: center;
-        }
-        .contextblog{
-            display:flex;
-            flex-direction: column;
-            justify-content: center;
-            margin-top: -10%;
-        }
-        .contenido{
-            font-family: Agesta display;
-            font-size: 100%;
-            margin-left: 2%;
-            margin-right: 2%;
-            text-align: justify;
-            text-justify: inter-word;
-        }
-        .mayusculas{
-            font-size: 200%;
-        }
-        h1{
-            font-family: Argesta display;
-            background-color:#B27632;
-            text-align: center;
-            padding: 30px;
-            border: 3px solid #E8DDC1;
-        }
-        .comprar{
-            text-decoration: none;
-            color: #E8DDC1;
-            background-color:#97221B;
-            font-family: Argesta display;
-            margin-top: 10%;
-            width: 100%;
-            padding: 2%;
-            font-size: 80%;
-            border: 1px solid #E8DDC1;
-        }
-        .comprar:hover{
-            color: #E8DDC1;
-            background-color:#65130f;
-            font-family: Argesta display;
-            padding: 2%;
-            font-size: 80%;
+    #logomobile{
+        width:25%; 
+        height:25%;
+        margin-left: 35%;
+        position: relative;
+        padding: 0;
     }
-        .logofooter{
-            width:45%; 
-            height:35%;
-            position: relative;
-            margin: 5% 2%;
-        }
-        .foot{
-            text-decoration: none;
-            padding:1% 4%;
-            margin: 6%;
-            height: 50%;
-            width: 50%;
-            background-color: #046A6A;
-            color: #E8DDC1;
-            border: 1px solid #E8DDC1;
-            font-size: 100%;
-            font-family: musetta;
-        }
-        footer{
-            display: flex;
-            justify-content: center;
-            align-items: space-between;
-            background-color: #97221B;
-            padding-right: 35%;
-            padding-left: 35%;
-            margin-top: 5%;
-            border-radius: 0px 0px 30px 30px;
-        }
-        .foot:hover{
-            background-color: #B27632;
-            color: #E8DDC1;
-        }
-        .contenidoblogtitular{
-            width: 80%;
-            height: 100%;
-            font-family: Argesta display;
-            background-color: #97221B;
-            padding: 0 3%;
-            border: 3px solid #E8DDC1;
-            font-size: 100%;
-            margin: 0 auto;
-            text-align: justify;
-            text-justify: inter-word;
-        }
-        .contenidoblog{
-            width: 100%;
-            height: 300%;
-            font-family: Agesta display;
-            background-color: #97221B;
-            padding: 0 5%;
-            border: 3px solid #E8DDC1;
-            font-size: 100%;
-            margin-left: 10%;
-            margin-right: 10%;
-            text-align: justify;
-            text-justify: inter-word;
-        }
-        .continuarleyendomain{
-            text-decoration: none;
-            color: #E8DDC1;
-            background-color:#97221B;
-            padding-right: 25px;
-            padding-left: 25px;
-            padding-top: 15px;
-            padding-bottom: 15px;
-            border-radius: 40px;
-            margin-left: 65% ;
-        }
-        .continuarleyendomain:hover{
-            color: #97221B;
-            background-color:#E8DDC1;
-            padding-right: 25px;
-            padding-left: 25px;
-            padding-top: 15px;
-            padding-bottom: 15px;
-            border-radius: 40px;
-        }
-        .continuarleyendo{
-            text-decoration: none;
-            color: #E8DDC1;
-            background-color:#97221B;
-            padding-right: 25px;
-            padding-left: 25px;
-            padding-top: 15px;
-            padding-bottom: 15px;
-            border-radius: 40px;
-            margin-left: 13% ;
-        }
-        .continuarleyendo:hover{
-            color: #97221B;
-            background-color:#E8DDC1;
-            padding-right: 25px;
-            padding-left: 25px;
-            padding-top: 15px;
-            padding-bottom: 15px;
-            border-radius: 40px;
-        }
-        .imagenpequeblogtitular{
-            width: 90%;
-            height: 150%;
-            border: 5px solid black;
-            margin: 2.5% 1%;
-            margin-left: 4%;
-        }
-        .imagenpequeblog{
-            height: 50%;
-            width: 50%;
-            border: 5px solid black;
-            margin-right: 10px;
-            margin-left: 10px;
-            display:none;
-        }
-        .img-responsive{
-            display: block;
-            width: 47%;
-            height: 620px;
-            margin-left: 10px;
-            margin-right: 10px;
-        }
-        .contextmain{
-            margin: -7% 5%;
-        }
-        .title{
-            font-size: 250%;
-            margin-top: 4%;
-        }
-        .containerform{
-            border-radius: 5px;
-            padding: 20px;
-        }
-        input[type=text], select {
-            width: 100%;
-            padding: 12px 20px;
-            margin: 8px 0;
-            display: inline-block;
-            border: 5px solid #E8DDC1;
-            border-radius: 4px;
-            box-sizing: border-box;
-            background-color: #046A6A;
-            color: #E8DDC1;
-            font-family: Argesta display;
-            font-size: large;
-        }
+    .imagenpeque1700{
+        width: 40%;
+        height: 60%;
+        margin: 6% 2%;
+        margin-bottom: 8%;
+        display: block;
+    }
+    .context{
+        display:flex;
+        flex-direction: row;
+        justify-content: center;
+        background-color: #046A6A;
+        border: 5px solid #E8DDC1;
+    }
+    .contextarticulos{
+        display:flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .contextarticulos1{
+        display:flex;
+        flex-direction: row;
+        justify-content: center;
+        margin-bottom: 15%;
+    }
+    .comprar{
+        margin-bottom: 5%;
+    }
+    .logofooter{
+        width:20%; 
+        height: auto;
+        position: relative;
+        margin: 10%  2%;
+    }
+    .containerfooter{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+    }
+    .foot{
+        font-size: 100%;
+        margin:  11% 1%;
+        height: 10%;
+        padding: 1% 2%;
+    }
+    .containerfoot{
+        margin: 10% 10%;
+    }
+    .containerfooterrow{
+        display: flex;
+        margin-top: 0;
+    }
+    .footermovil{
+        display: none;
+    }
+    footer{
+        padding: 0 2%;
+    }
+    .contenidoblogtitular{
+        width: 80%;
+        height: 100%;
+        font-family: Argesta display;
+        background-color: #97221B;
+        padding: 0 3%;
+        border: 3px solid #E8DDC1;
+        font-size: 100%;
+        margin-bottom: 8%;
+    }
+    .images{
+        margin-top: 18%;
         
-        input[type=submit] {
-            width: 100%;
-            background-color: #046A6A;
-            color: white;
-            padding: 14px 20px;
-            margin: 8px 0;
-            border: none;
-            border-radius: 4px;
-            cursor: pointer;
-            color: #E8DDC1;
-            font-family: Argesta display;
-            font-size: 40px;
-        }
-        
-        input[type=submit]:hover {
-            background-color: #97221B;
-        }
-        textarea{
-            width: 100%;
-            height: 400px;
-        }
-        .containerlogin{
-            border-radius: 5px;
-            padding: 100px 20%;
-        }
-        
-        
-
+    }
+    .contenidoblog{
+        width: 200%;
+        margin: 0 1%;
+    }
+    .continuarleyendomain{
+        margin-left: 65% ;
+        border: 3px solid #E8DDC1;
+    }
+    .continuarleyendo{
+        margin-left: 13%;
+        border: 3px solid #E8DDC1;
+    }
+    .imagenpequeblogtitular{
+        width: 100%;
+        border: 5px solid #E8DDC1;
+        margin: 4.5% 0;
+        margin-top: 23%;
+        margin-left: -1%;
+    }
+    .imagenpequeblog{
+        display:none;
+    }
+    .img-responsive{
+        display: block;
+        width: 50%;
+        height: 100%;
+        margin: 0 2%;
+        border: 5px solid #E8DDC1;
+    }
+    .contextmain{
+        margin: -7% 5%;
+    }
+    .title{
+        font-size: 250%;
+        margin-top: 3%;
+        margin-bottom: 3%;
+    }
+    .containerform{
+        border-radius: 5px;
+        padding: 20px;
+    }
+    .formulario{
+        margin-top: 15%;
+    }
+    input[type=submit] {
+        cursor: pointer;
+        font-size: 20px;   
+    }
+    input[type=submit]:hover {
+        background-color: #97221B;
+    }
+    textarea{
+        width: 100%;
+        height: 500px;
+    }
+    .containerlogin{
+        border-radius: 5px;
+        padding: 100px 20%;
+        margin-bottom: 18%;
+    }
 }
 
 @media only screen and (min-width: 1100px){
@@ -756,9 +590,9 @@
         justify-content: center;
         align-items: space-between;
         background-color: #97221B;
-        padding-top: -2%;
+        margin: 5% 2.5%;
         border-radius: 30px 30px 0px 0px;
-        width: 62%;
+        width: 65%;
     }
     body{
         background-color: black;
@@ -766,7 +600,7 @@
         margin: 3%;
     }
     .logo{
-        width:20%; 
+        width:22%; 
         position: relative;
         margin: 5% 2%;
     }
@@ -776,16 +610,17 @@
     .images{
         width: 100%;
         height: 100%;
-        margin-top: -3%;
+        margin-top: 10%;
     }
     .headercontainer{
         position: fixed;
         background-color: black;
-        padding: 4%;
+        padding: 0;
         padding-bottom:0;
         margin-top: -5%;
         margin-left: -3%;
         width: 100%;
+        z-index: 1;
     }
     .imagenpeque{
         width: 50%;
@@ -817,13 +652,6 @@
         width: 150%;
         height: 50%;
     }
-    h1{
-        font-family: Argesta display;
-        background-color:#B27632;
-        text-align: center;
-        padding: 30px;
-        border: 5px solid #E8DDC1;
-    }
     .containermenumobile{
         display: none;
     }
@@ -847,58 +675,62 @@
         font-family: Argesta display;
         padding: 2%;
         font-size: 80%;
-}
+    }
+    .contextarticulos {
+        margin: 5% 0;
+    }
     .logofooter{
-        width:25%; 
-        height:19%;
+        width:20%; 
+        height: auto;
         position: relative;
-        margin: 5% 2%;
+        margin: 5%  2%;
+    }
+    .containerfooter{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
     }
     .foot{
-        text-decoration: none;
-        padding:1% 4%;
-        margin: 6%;
-        height: 50%;
-        width: 50%;
-        background-color: #046A6A;
-        color: #E8DDC1;
-        border: 3px solid #E8DDC1;
-        font-size: 150%;
-        font-family: musetta;
+        font-size: 200%;
+        margin:  5% 1%;
+        padding: 1% 2%;
+        height: 25%;
+    }
+    .containerfoot{
+        margin: 10% 10%;
+    }
+    .containerfooterrow{
+        display: flex;
+        margin-top: 0;
+    }
+    .footermovil{
+        display: none;
     }
     footer{
-        display: flex;
-        justify-content: center;
-        align-items: space-between;
-        background-color: #97221B;
-        padding-right: 25%;
-        padding-left: 25%;
-        margin-top: 5%;
-        border-radius: 0px 0px 30px 30px;
+        padding: 0 2%;
     }
     .foot:hover{
         background-color: #B27632;
         color: #E8DDC1;
     }
     .contenidoblogtitular{
-        width: 25%;
+        width: 92%;
         font-family: Argesta display;
         background-color: #97221B;
         padding: 30px;
         border: 5px solid #E8DDC1;
-        font-size: 32px;
-        margin-left: 10px;
-        margin-right: 20px;
+        font-size: 22px;
+        margin-bottom: 1%;
         text-align: justify;
         text-justify: inter-word;
     }
     .contenidoblog{
-        width: 50%;
+        width: 100%;
         font-family: Agesta display;
         background-color: #97221B;
-        padding: 30px;
+        padding: 20px;
         border: 5px solid #E8DDC1;
-        font-size: 32px;
+        font-size: 22px;
         margin-left: 20px;
         margin-right: 20px;
         text-align: justify;
@@ -913,7 +745,8 @@
         padding-top: 15px;
         padding-bottom: 15px;
         border-radius: 40px;
-        margin-left: 43% ;
+        display: flex;
+        justify-content: center;
     }
     .continuarleyendomain:hover{
         color: #97221B;
@@ -933,7 +766,9 @@
         padding-top: 15px;
         padding-bottom: 15px;
         border-radius: 40px;
-        margin-left: 65% ;
+        display: flex;
+        justify-content: center;
+        margin: 0;
     }
     .continuarleyendo:hover{
         color: #97221B;
@@ -945,11 +780,9 @@
         border-radius: 40px;
     }
     .imagenpequeblogtitular{
-        width: 70%;
-        height: 150%;
+        width: 100%;
+        margin-left: 0;
         border: 5px solid black;
-        margin-right: 10px;
-        margin-left: 10px;
     }
     .imagenpequeblog{
         height: 50%;
@@ -962,7 +795,7 @@
         margin: 5%;
     }
     .title{
-        font-size: 500%;
+        font-size: 300%;
     }
     .containerform{
         border-radius: 5px;
@@ -995,7 +828,9 @@
         font-family: Argesta display;
         font-size: 40px;
     }
-    
+    .img-responsive{
+        height: relative;
+    }
     input[type=submit]:hover {
         background-color: #97221B;
     }
@@ -1007,8 +842,6 @@
         border-radius: 5px;
         padding: 100px 20%;
     }
-    
-    
 }
 @media only screen and (min-width: 1450px){
     .imagenpeque1700{
@@ -1094,6 +927,10 @@
         margin: 0 2%;
         margin-top:2%;
         margin-bottom: 2%;
+    }
+    .imagenpequeblogtitular{
+        width: 97.8%;
+        margin-left: 0.8%;
     }
 }
 @media only screen and (min-width: 2500px){
